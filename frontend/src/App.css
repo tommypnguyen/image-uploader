@@ -1,0 +1,68 @@
+body {
+  background-color: #fafafb;
+}
+
+.valign-wrapper {
+  min-height: calc(100vh - 64px);
+}
+
+.responsive-image {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+}
+.upload {
+  padding: 15px 0 15px 0;
+}
+
+.padding-med {
+  padding: 10px 0 25px 0;
+}
+
+.padding-sm {
+  padding: 5px 0 5px 0;
+}
+
+.x-med {
+  font-size: 2em;
+}
+
+.btn-sm {
+  font-size: 10px;
+}
+
+.main-card {
+  padding: 1em 4em 1em 4em;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.dropzone {
+  flex: 1;
+  display: 'flex';
+  flex-direction: 'column';
+  align-items: 'center';
+  padding: '20px';
+  border-width: 2;
+  border-radius: 2;
+  border-color: '#eeeeee';
+  border-style: 'dashed';
+  background-color: '#fafafa';
+  color: '#bdbdbd';
+  outline: 'none';
+  transition: 'border .24s ease-in-out';
+}
+
+.loader {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  width: 40%;
+}
+
+.upload-btn {
+  border-radius: 5px;
+}
