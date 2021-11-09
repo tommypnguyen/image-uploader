@@ -18,7 +18,7 @@
     "web-vitals": "^1.0.1"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "python app.py",
     "backend": "source ../backend/venv/bin/activate && python ../backend/app.py",
     "dev": "concurrently \"npm start\" \"npm run backend\"",
     "build": "react-scripts build",
