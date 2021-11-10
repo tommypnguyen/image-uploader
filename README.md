@@ -39,17 +39,16 @@
 
 ![screenshot](demo_ss.png)
 
-Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
-
-- Where can I see your demo?
-- What was your experience?
-- What have you learned/improved?
-- Your wisdom? :)
-
 For this project we were tasked with building an Image Uploader application, with the ability to
 
 - Drag and Drop Images or Upload them through a button
 - Allow users to view image and provide a link to the uploaded image
+
+By completing this project, I have learned how to
+
+- Create an API with Flask to upload and store images to AWS S3
+- Create a Responsive frontend with ReactJS
+- How to connect a Flask backend to a ReactJS frontend and deploy
 
 Overall it was a challenging, but enjoyable experience. Before coming accross dev challenges, I would always start projects but never complete them or even get to deploying them. By completing this challenge, not only have I learned how to create and navigate a full-stack application, but also how to deploy one. Whether you are a beginner or experienced developer, this will be great for you to take on.
 
