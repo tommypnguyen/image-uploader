@@ -1,6 +1,6 @@
 <!-- Please update value in the {}  -->
 
-<h1 align="center">{Your project name}</h1>
+<h1 align="center">Image Uploader</h1>
 
 <div align="center">
    Solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
@@ -8,11 +8,11 @@
 
 <div align="center">
   <h3>
-    <a href="https://{your-demo-link.your-domain}">
+    <a href="https://image-uploader-1998.herokuapp.com/">
       Demo
     </a>
     <span> | </span>
-    <a href="https://{your-url-to-the-solution}">
+    <a href="https://github.com/tommypnguyen/image-uploader">
       Solution
     </a>
     <span> | </span>
@@ -37,7 +37,7 @@
 
 ## Overview
 
-![screenshot](https://user-images.githubusercontent.com/16707738/92399059-5716eb00-f132-11ea-8b14-bcacdc8ec97b.png)
+![screenshot](demo_ss.png)
 
 Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
 
@@ -46,13 +46,21 @@ Introduce your projects by taking a screenshot or a gif. Try to tell visitors a 
 - What have you learned/improved?
 - Your wisdom? :)
 
+For this project we were tasked with building an Image Uploader application, with the ability to
+
+- Drag and Drop Images or Upload them through a button
+- Allow users to view image and provide a link to the uploaded image
+
+Overall it was a challenging, but enjoyable experience. Before coming accross dev challenges, I would always start projects but never complete them or even get to deploying them. By completing this challenge, not only have I learned how to create and navigate a full-stack application, but also how to deploy one. Whether you are a beginner or experienced developer, this will be great for you to take on.
+
 ### Built With
 
 <!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
 
 - [React](https://reactjs.org/)
-- [Vue.js](https://vuejs.org/)
-- [Tailwind](https://tailwindcss.com/)
+- [Materialize CSS](https://materializecss.com/)
+- [Flask](https://flask.palletsprojects.com/en/2.0.x/)
+- [AWS S3](https://aws.amazon.com/s3/)
 
 ## Features
 
@@ -60,33 +68,19 @@ Introduce your projects by taking a screenshot or a gif. Try to tell visitors a 
 
 This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/O2iGT9yBd6xZBrOcVirx) was to build an application to complete the given user stories.
 
-## How To Use
-
-<!-- Example: -->
-
-To clone and run this application, you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
-
-```bash
-# Clone this repository
-$ git clone https://github.com/your-user-name/your-project-name
-
-# Install dependencies
-$ npm install
-
-# Run the app
-$ npm start
-```
+- I can drag and drop an image to upload it
+- I can choose to select an image from my folder
+- I can see a loader when uploading
+- When the image is uploaded, I can see the image and copy it
+- I can choose to copy to the clipboard
 
 ## Acknowledgements
 
 <!-- This section should list any articles or add-ons/plugins that helps you to complete the project. This is optional but it will help you in the future. For example -->
 
-- [Steps to replicate a design with only HTML and CSS](https://devchallenges-blogs.web.app/how-to-replicate-design/)
-- [Node.js](https://nodejs.org/)
-- [Marked - a markdown parser](https://github.com/chjj/marked)
+- [How To Build & Deploy a React + Flask App](https://towardsdatascience.com/build-deploy-a-react-flask-app-47a89a5d17d9)
+- [Using AWS S3 to Store Static Assets and File Uploads](https://devcenter.heroku.com/articles/s3)
 
 ## Contact
 
-- Website [your-website.com](https://{your-web-site-link})
-- GitHub [@your-username](https://{github.com/your-usermame})
-- Twitter [@your-twitter](https://{twitter.com/your-username})
+- GitHub [tommypnguyen](https://{github.com/tommypnguyen})
